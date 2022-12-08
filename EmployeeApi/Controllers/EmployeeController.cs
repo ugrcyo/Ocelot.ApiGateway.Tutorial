@@ -1,11 +1,13 @@
 ﻿using EmployeeApi.Data;
 using EmployeeApi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class EmployeeController : Controller
     {
         [HttpGet]

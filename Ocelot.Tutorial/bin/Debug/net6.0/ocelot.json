@@ -10,7 +10,11 @@
         }
       ],
       "UpstreamPathTemplate": "/api/gateway/employee",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
     },
     {
       "DownstreamPathTemplate": "/api/employee/{id}",
@@ -23,7 +27,11 @@
       ],
       "UpstreamPathTemplate": "/api/gateway/employee/{id}",
       "Priority": 1,
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
     },
     {
       "DownstreamPathTemplate": "/api/user",
@@ -35,6 +43,22 @@
         }
       ],
       "UpstreamPathTemplate": "/api/gateway/user",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/authentication",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7006
+        }
+      ],
+      "UpstreamPathTemplate": "/api/gateway/auth",
       "UpstreamHttpMethod": [ "Get" ]
     }
   ],
