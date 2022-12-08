@@ -1,24 +1,22 @@
-﻿<Properties StartupConfiguration="{00C056C8-AB52-4BAD-BF26-A878EAE3D405}|Default">
+﻿<Properties StartupConfiguration="{F6F60F7F-549E-4F06-BD9D-B32E3B751C49}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/ugrcyo/Desktop/Ocelot.ApiGateway.Tutorial/AuthenticationApi/Controllers/AuthenticationController.cs" relfile="AuthenticationApi/Controllers/AuthenticationController.cs" line="22" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ocelot.Tutorial/Dockerfile">
+    <Files>
+      <File FileName="Ocelot.Tutorial/Dockerfile" Line="1" Column="38" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Ocelot.Tutorial" expanded="True">
-            <Node name="UserApi">
-              <Node name="appsettings.json" selected="True" />
-            </Node>
-          </Node>
+          <Node name="Ocelot.Tutorial" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.ApiGateway PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
